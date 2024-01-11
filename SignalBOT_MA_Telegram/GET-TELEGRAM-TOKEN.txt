@@ -1,0 +1,31 @@
+Obtaining Your Telegram Bot Token and Chat ID
+To use the script effectively, you will need to obtain a Telegram bot token and your Telegram chat ID. Below are step-by-step instructions on how to do this using Telegram's BotFather and a user information bot.
+
+Getting Your Telegram Bot Token:
+Start a Conversation with BotFather:
+
+Open your Telegram application.
+Search for @BotFather in your Telegram search bar and start a conversation with it.
+BotFather is the one bot to rule them all. It will help you create and manage your Telegram bots.
+Create a New Bot:
+
+Type /newbot and send it to BotFather.
+BotFather will ask you for a name for your new bot, enter a name.
+Next, you will be asked to choose a username for your bot. This username must end in ‘bot’. For example, mytest_bot.
+Get Your Token:
+
+After you've completed the setup, BotFather will give you a token. This token is like your bot's password, so keep it secure and do not share it with anyone.
+This token will be used in your script as the TELEGRAM_TOKEN.
+Finding Your Telegram Chat ID:
+Start a Conversation with a User Info Bot:
+
+There are several bots available on Telegram that can provide you with your chat ID. For example, you can use @userinfobot.
+Start a conversation with this bot by searching for it in Telegram and sending a message like /start.
+Obtain Your Chat ID:
+
+After sending a message to the user info bot, it should reply with various pieces of information, including your chat_id.
+This chat_id is what you'll use in your script as the TELEGRAM_CHAT_ID.
+Security Note:
+Keep your TELEGRAM_TOKEN confidential to ensure your bot remains secure.
+Make sure you trust the bot before sending any sensitive information.
+Once you have your bot token and chat ID, insert them into the appropriate places in your script. This setup will allow your script to send messages to your Telegram chat through your bot.

@@ -1,0 +1,18 @@
+Installation Instructions
+To use this script, you need Python 3.10 and the required dependencies. Here's a guide on how to set them up:
+
+Install Python 3.10:
+
+Visit the official Python website: Python Downloads
+Download the latest version of Python 3.10 for your operating system.
+Run the installer and follow the instructions to install Python 3.10 on your machine.
+Make sure to check the option 'Add Python 3.10 to PATH' during installation.
+Install Dependencies:
+
+Once Python is installed, open your terminal or command prompt.
+Navigate to the directory containing your script.
+Install the required dependencies by running:
+
+pip install -r requirements.txt
+
+After completing these steps, Python 3.10 and all necessary libraries should be installed, and you will be ready to run the script.
